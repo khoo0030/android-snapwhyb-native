@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Snap WHYB</string>
+
+    <string name="permission_all_image_content_description">Phone Setup icon</string>
+    <string name="permission_all_title">App Permissions</string>
+    <string name="permission_all_subtitle">Snap requires these permissions:</string>
+    <string name="permission_all_body_storage">Save files such as photos on your device</string>
+    <string name="permission_all_body_location">Trace and remember the place when you take photos.</string>
+    <string name="permission_all_button">Grant permissions</string>
+
+    <string name="permission_storage_image_content_description">Folder icon</string>
+    <string name="permission_storage_title">Storage Permission</string>
+    <string name="permission_storage_subtitle">Snap requires permission to save files such as photos on your device</string>
+    <string name="permission_storage_button">Grant storage permission</string>
+
+    <string name="permission_location_image_content_description">Location icon</string>
+    <string name="permission_location_title">Location Permission</string>
+    <string name="permission_location_subtitle">Snap requires permission to get your location. Trace and remember the place when you take photos.</string>
+    <string name="permission_location_button">Grant location permission</string>
+
+    <string name="main_camera_image_content_description">Camera icon</string>
+
+    <string name="fragment_main_empty_title">Click on button to snap a photo</string>
+    <string name="fragment_main_empty_subtitle">Start recording where you have been</string>
+
+    <string name="create_photo_entry_photo_content_description">Photo image</string>
+    <string name="create_photo_entry_icon_place_content_description">Place icon</string>
+    <string name="create_photo_entry_icon_time_content_description">Time icon</string>
+    <string name="create_photo_entry_icon_create_content_description">Write icon</string>
+    <string name="create_photo_entry_icon_drop_down_description">Drop down icon</string>
+    <string name="create_photo_entry_icon_powered_by_google_description">Google icon</string>
+    <string name="create_photo_entry_field_hint_place">The place</string>
+    <string name="create_photo_entry_field_hint_address">Address</string>
+    <string name="create_photo_entry_field_hint_country">Country</string>
+    <string name="create_photo_entry_field_hint_message">Write some memories</string>
+
+    <string name="menu_item_camera">Camera</string>
+    <string name="menu_item_location_off">Location Off</string>
+    <string name="menu_item_location_on">Location On</string>
+
+    <string name="fragment_main_gallery_no_description">No description</string>
+    <string name="fragment_main_gallery_confirm_delete_photo">Delete photo?</string>
+    <string name="fragment_main_gallery_photo_deleted">Photo deleted!</string>
+
+    <string name="snackbar_confirm">Confirm</string>
+    <string name="snackbar_dismiss">Dismiss</string>
+
+    <string name="main_location_mode_on">Location enabled</string>
+    <string name="main_location_mode_off">Location disabled</string>
+    <string name="main_network_off">Turn on network connection</string>
+
+    <string name="sliding_up_panel_bar_title">Open panel</string>
+
+    <string name="location_mode_on_progress_bar_title">Getting location</string>
+
+    <string name="create_photo_entry_place_suggestion_button_title">Not the correct place? Find more</string>
+    <string name="create_photo_entry_place_suggestion_title">We cannot get your location</string>
+    <string name="create_photo_entry_place_suggestion_dialog_title">Suggested places</string>
+</resources>

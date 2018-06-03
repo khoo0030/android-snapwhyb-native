@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "704386875090",
+    "firebase_url": "https://snapwhyb-dev.firebaseio.com",
+    "project_id": "snapwhyb-dev",
+    "storage_bucket": "snapwhyb-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704386875090:android:9637dacd51b88f5b",
+        "android_client_info": {
+          "package_name": "com.qoovers.snapwhyb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704386875090-dno2qcr9lc82e198lp9skn4697qsb9gq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPeoT8q21lA1580p404vKPIB5ckIe3E34"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

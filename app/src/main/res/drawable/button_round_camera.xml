@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:color="@color/button_round_ripple_camera"
+    tools:targetApi="lollipop"> <!-- ripple effect color -->
+    <item
+        android:id="@android:id/background">
+        <shape android:shape="oval">
+            <solid android:color="@color/button_round_normal_camera" /> <!-- background color -->
+            <size
+                android:width="@dimen/button_round_camera_width"
+                android:height="@dimen/button_round_camera_height"/>
+        </shape>
+    </item>
+</ripple>

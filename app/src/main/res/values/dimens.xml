@@ -1,0 +1,29 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="margin_0">0dp</dimen>
+    <dimen name="margin_1">4dp</dimen>
+    <dimen name="margin_2">8dp</dimen>
+    <dimen name="margin_3">16dp</dimen>
+    <dimen name="margin_4">24dp</dimen>
+    <dimen name="margin_5">32dp</dimen>
+    <dimen name="margin_6">48dp</dimen>
+    <dimen name="margin_7">64dp</dimen>
+    <dimen name="margin_8">80dp</dimen>
+    <dimen name="margin_9">96dp</dimen>
+    <dimen name="margin_10">112dp</dimen>
+
+    <dimen name="icon_1">12dp</dimen>
+    <dimen name="icon_2">16dp</dimen>
+    <dimen name="icon_3">24dp</dimen>
+    <dimen name="icon_4">36dp</dimen>
+    <dimen name="icon_5">48dp</dimen>
+    <dimen name="icon_6">72dp</dimen>
+    <dimen name="icon_7">96dp</dimen>
+    <dimen name="icon_8">120dp</dimen>
+
+    <dimen name="button_round_camera_width">80dp</dimen>
+    <dimen name="button_round_camera_height">80dp</dimen>
+    <dimen name="button_round_camera_icon_width">40dp</dimen>
+    <dimen name="button_round_camera_icon_height">40dp</dimen>
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/base_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_editor_absoluteX="0dp"
+    app:layout_editor_absoluteY="80dp"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="80dp"
+    tools:context="com.qoovers.snapwhyb.PermissionStorageActivity">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="@dimen/icon_6"
+        android:layout_height="@dimen/icon_6"
+        android:layout_marginBottom="@dimen/margin_0"
+        android:contentDescription="@string/permission_storage_image_content_description"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_folder_amber"
+        app:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/base_layout"
+        app:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/base_layout"
+        app:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/base_layout"
+        app:layout_constraintTop_creator="1"
+        app:layout_constraintTop_toTopOf="@+id/base_layout"
+        app:layout_constraintVertical_bias="0.258"
+        app:layout_editor_absoluteX="0dp"
+        app:layout_editor_absoluteY="0dp"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/title.secondary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_3"
+        android:text="@string/permission_storage_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/base_layout"
+        app:layout_constraintTop_creator="0"
+        app:layout_constraintTop_toBottomOf="@+id/icon"
+        app:layout_editor_absoluteX="16dp"
+        app:layout_editor_absoluteY="140dp"
+        tools:layout_constraintLeft_creator="0"
+        tools:layout_constraintTop_creator="0" />
+
+    <TextView
+        android:id="@+id/subtitle"
+        style="@style/header.secondary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/margin_3"
+        android:paddingBottom="@dimen/margin_3"
+        android:paddingStart="@dimen/margin_6"
+        android:paddingEnd="@dimen/margin_6"
+        android:text="@string/permission_storage_subtitle"
+        android:textAlignment="center"
+        app:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/base_layout"
+        app:layout_constraintTop_creator="0"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/button.inversePrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_5"
+        android:background="@drawable/button_permission_storage"
+        android:onClick="grantStoragePermission"
+        android:padding="@dimen/margin_3"
+        android:text="@string/permission_storage_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/base_layout"
+        app:layout_constraintTop_creator="0"
+        app:layout_constraintTop_toBottomOf="@+id/subtitle" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,252 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/app_theme_primary</item>
+        <item name="colorPrimaryDark">@color/app_theme_primary_dark</item>
+        <item name="colorAccent">@color/app_theme_accent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="SplashBackground" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/bg_splash</item>
+    </style>
+
+    <style name="TransparentStatusBar" parent="AppTheme.NoActionBar">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="PhotoEntry" parent="AppTheme.NoActionBar">
+        <!--<item name="android:windowDrawsSystemBarBackgrounds">true</item>-->
+        <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:windowBackground">@color/light_theme_background</item>-->
+        <item name="android:windowTranslucentStatus">true</item> <!--Transparent status bar-->
+        <item name="colorControlNormal">@color/text_inverse_secondary</item>
+        <item name="colorControlActivated">@color/text_inverse_secondary</item>
+        <item name="colorControlHighlight">@color/text_inverse_hint</item>
+    </style>
+
+    <style name="TransparentActionBar" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:windowActionBarOverlay">true</item>
+        <!-- Support library compatibility -->
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="EditText">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="EditText.Inverse" parent="EditText">
+        <item name="android:textColor">@color/text_inverse_primary</item>
+        <item name="android:textColorHint">@color/text_inverse_secondary</item>
+    </style>
+
+    <style name="caption">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="caption.primary" parent="caption">
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="caption.secondary" parent="caption">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="caption.hint" parent="caption">
+        <item name="android:textColor">@color/text_hint</item>
+    </style>
+
+    <style name="caption.inversePrimary" parent="caption">
+        <item name="android:textColor">@color/text_inverse_primary</item>
+    </style>
+
+    <style name="caption.inverseSecondary" parent="caption">
+        <item name="android:textColor">@color/text_inverse_secondary</item>
+    </style>
+
+    <style name="caption.inverseHint" parent="caption">
+        <item name="android:textColor">@color/text_inverse_hint</item>
+    </style>
+
+    <style name="body">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="body.primary" parent="body">
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="body.secondary" parent="body">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="body.hint" parent="body">
+        <item name="android:textColor">@color/text_hint</item>
+    </style>
+
+    <style name="body.inversePrimary" parent="body">
+        <item name="android:textColor">@color/text_inverse_primary</item>
+    </style>
+
+    <style name="body.inverseSecondary" parent="body">
+        <item name="android:textColor">@color/text_inverse_secondary</item>
+    </style>
+
+    <style name="body.inverseHint" parent="body">
+        <item name="android:textColor">@color/text_inverse_hint</item>
+    </style>
+
+    <style name="body.medium" parent="body">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@string/font_fontFamily_medium</item>
+    </style>
+
+    <style name="body.medium.primary" parent="body.medium">
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="body.medium.secondary" parent="body.medium">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="body.medium.hint" parent="body.medium">
+        <item name="android:textColor">@color/text_hint</item>
+    </style>
+
+    <style name="body.medium.inversePrimary" parent="body.medium">
+        <item name="android:textColor">@color/text_inverse_primary</item>
+    </style>
+
+    <style name="body.medium.inverseSecondary" parent="body.medium">
+        <item name="android:textColor">@color/text_inverse_secondary</item>
+    </style>
+
+    <style name="body.medium.inverseHint" parent="body.medium">
+        <item name="android:textColor">@color/text_inverse_hint</item>
+    </style>
+
+    <style name="header">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="header.primary" parent="header">
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="header.secondary" parent="header">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="header.hint" parent="header">
+        <item name="android:textColor">@color/text_hint</item>
+    </style>
+
+    <style name="header.inversePrimary" parent="header">
+        <item name="android:textColor">@color/text_inverse_primary</item>
+    </style>
+
+    <style name="header.inverseSecondary" parent="header">
+        <item name="android:textColor">@color/text_inverse_secondary</item>
+    </style>
+
+    <style name="header.inverseHint" parent="header">
+        <item name="android:textColor">@color/text_inverse_hint</item>
+    </style>
+
+    <style name="title">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="title.primary" parent="title">
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="title.secondary" parent="title">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="title.hint" parent="title">
+        <item name="android:textColor">@color/text_hint</item>
+    </style>
+
+    <style name="title.inversePrimary" parent="title">
+        <item name="android:textColor">@color/text_inverse_primary</item>
+    </style>
+
+    <style name="title.inverseSecondary" parent="title">
+        <item name="android:textColor">@color/text_inverse_secondary</item>
+    </style>
+
+    <style name="title.inverseHint" parent="title">
+        <item name="android:textColor">@color/text_inverse_hint</item>
+    </style>
+
+    <style name="headline">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@string/font_fontFamily_medium</item>
+    </style>
+
+    <style name="headline.primary" parent="headline">
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="headline.secondary" parent="headline">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="headline.hint" parent="headline">
+        <item name="android:textColor">@color/text_hint</item>
+    </style>
+
+    <style name="headline.inversePrimary" parent="headline">
+        <item name="android:textColor">@color/text_inverse_primary</item>
+    </style>
+
+    <style name="headline.inverseSecondary" parent="headline">
+        <item name="android:textColor">@color/text_inverse_secondary</item>
+    </style>
+
+    <style name="headline.inverseHint" parent="headline">
+        <item name="android:textColor">@color/text_inverse_hint</item>
+    </style>
+
+    <style name="button">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@string/font_fontFamily_medium</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="button.primary" parent="button">
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="button.secondary" parent="button">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="button.inversePrimary" parent="button">
+        <item name="android:textColor">@color/text_inverse_primary</item>
+    </style>
+
+    <style name="button.inverseSecondary" parent="button">
+        <item name="android:textColor">@color/text_inverse_secondary</item>
+    </style>
+
+    <style name="button.link.primary" parent="button">
+        <item name="android:textColor">@color/link_primary</item>
+    </style>
+</resources>
