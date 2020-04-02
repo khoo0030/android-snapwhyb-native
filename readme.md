@@ -14,7 +14,7 @@ write your thoughts about the photo. Photos are stored locally on the phone.
 to suggest current location
 - Write and edit a story for each picture
 
-<img src="https://s3-ap-southeast-1.amazonaws.com/geraldkhoo.com/assets/photo-app/photo-app-1.jpg" width="45%"></img>
-<img src="https://s3-ap-southeast-1.amazonaws.com/geraldkhoo.com/assets/photo-app/photo-app-2.jpg" width="45%"></img>
-<img src="https://s3-ap-southeast-1.amazonaws.com/geraldkhoo.com/assets/photo-app/photo-app-3.jpg" width="45%"></img>
-<img src="https://s3-ap-southeast-1.amazonaws.com/geraldkhoo.com/assets/photo-app/photo-app-4.jpg" width="45%"></img>
+<img src="https://s3-ap-southeast-1.amazonaws.com/khoo0030-storage/github/android-snapwhyb-native/photo-app-1.jpg" width="45%"></img>
+<img src="https://s3-ap-southeast-1.amazonaws.com/khoo0030-storage/github/android-snapwhyb-native/photo-app-2.jpg" width="45%"></img>
+<img src="https://s3-ap-southeast-1.amazonaws.com/khoo0030-storage/github/android-snapwhyb-native/photo-app-3.jpg" width="45%"></img>
+<img src="https://s3-ap-southeast-1.amazonaws.com/khoo0030-storage/github/android-snapwhyb-native/photo-app-4.jpg" width="45%"></img>
